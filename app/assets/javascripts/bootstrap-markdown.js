@@ -1375,8 +1375,11 @@
       })
     })
 
-    $(window).initMarkdownEx = function(){
-      initMarkdown();
-      }
+    window.updateMarkdown = function() {
+        $('textarea[data-provide="markdown"]').each(function () {
+            initMarkdown($(this));
+        });
+    }
+
 
 }(window.jQuery);
