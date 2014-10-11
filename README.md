@@ -1,3 +1,7 @@
+# It still doesn't work as expected. Don't use this. 
+# Go to original gem. 
+
+
 # Rails::Bootstrap::Markdown
 
 A rails gem for [Bootstrap Markdown](http://toopay.github.io/bootstrap-markdown/), rewritten to SCSS for use with [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass).
