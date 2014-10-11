@@ -1375,4 +1375,8 @@
       })
     })
 
+    $(window).initMarkdownEx = function(){
+      initMarkdown();
+      }
+
 }(window.jQuery);
